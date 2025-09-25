@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    padding: 10px 20px;   
+    margin: auto; 
+}
+
+h1, h2, p, button {
+    font-family: sans-serif;
+}

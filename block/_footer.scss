@@ -1,0 +1,54 @@
+.footer {
+    padding: 50px 50px;
+    background: #2C343E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__img {
+        width: 300px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__link {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+
+    &__link:hover {
+        color: #ffffff;
+        transform: scale(1.5);
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__icon {
+        font-size: 30px;
+        color: #ffffff;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    &__icon:hover {
+        transform: scale(1.5);
+    }
+}
