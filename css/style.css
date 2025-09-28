@@ -448,4 +448,110 @@ a {
 h1, h2, p, button {
   font-family: sans-serif;
 }
+
+.about-header {
+  background-image: url(../images/aboutbgimg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 50px;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+.about-header-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.about-header-text {
+  margin-top: 50px;
+  width: 440px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+
+.about-commit {
+  padding: 50px 50px;
+}
+
+.about-commit-img {
+  border-radius: 10px;
+}
+
+.about-commit-info {
+  width: 540px;
+  margin-left: 600px;
+  margin-top: -450px;
+}
+
+.about-commit-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.about-commit-text {
+  margin-top: 30px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.about-uncommit {
+  position: relative;
+  margin-top: 200px;
+  padding: 50px 50px;
+  border-radius: 10px;
+  background: #2C343E;
+}
+
+.about-uncommit-info {
+  width: 540px;
+  padding: 80px 50px;
+}
+
+.about-uncommit-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.about-uncommit-text {
+  margin-top: 30px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.about-uncommit-img {
+  width: 400px;
+  position: absolute;
+  border-radius: 10px;
+  left: 700px;
+  bottom: 100px;
+}
 /*# sourceMappingURL=style.css.map */

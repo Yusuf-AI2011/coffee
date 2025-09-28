@@ -1,0 +1,41 @@
+.about-uncommit {
+    position: relative;
+    margin-top: 200px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    background: #2C343E;
+
+    &-info {
+        width: 540px;
+        padding: 80px 50px;
+    }
+
+    &-title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &-text {
+        margin-top: 30px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &-img {
+        width: 400px;
+        position: absolute;
+        border-radius: 10px;
+        left: 700px;
+        bottom: 100px;
+    }
+}

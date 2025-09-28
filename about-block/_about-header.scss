@@ -1,0 +1,28 @@
+.about-header {
+  background-image: url(../images/aboutbgimg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 50px;
+  background-attachment: fixed;
+  border-radius: 10px;
+
+  &-title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+  }
+
+  &-text {
+    margin-top: 50px;
+    width: 440px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+  }
+}
