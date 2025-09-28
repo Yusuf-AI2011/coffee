@@ -445,10 +445,6 @@ a {
   margin: auto;
 }
 
-h1, h2, p, button {
-  font-family: sans-serif;
-}
-
 .about-header {
   background-image: url(../images/aboutbgimg.jpg);
   background-size: 100% 100%;
@@ -553,5 +549,53 @@ h1, h2, p, button {
   border-radius: 10px;
   left: 700px;
   bottom: 100px;
+}
+
+.about-country {
+  padding: 50px 50px;
+}
+
+.about-country-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  font-size: 40px;
+  color: #83888f;
+}
+
+.about-country-boxes {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 200px;
+}
+
+.about-country-title1 {
+  margin-top: 30px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.about-country-text {
+  margin-top: 30px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
 }
 /*# sourceMappingURL=style.css.map */
