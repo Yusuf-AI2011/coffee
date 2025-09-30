@@ -1,0 +1,140 @@
+.plan-drink {
+    padding: 50px 50px;
+
+    .plan-drink-table {
+        position: relative;
+
+        &-title {
+            margin: 30px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333D4B;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+
+        &-hr {
+            margin-top: 10px;
+            width: 200px;
+            height: 2px;
+            background: #83888F;
+            margin-left: 30px;
+            
+        }
+
+        &-title:hover {
+            color: #0E8784;
+        }
+    }
+
+    &-boxes {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &-box {
+        margin-top: 50px;
+        width: 150px;
+        height: 170px;
+        padding: 30px 30px;
+        // border: 1px solid;
+        border-radius: 10px;
+        background: #F4F1EB;
+
+    }
+
+    &-title {
+        text-align: center;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    &-text {
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+
+
+    }
+
+    &-h1 {
+        margin-top: 50px;
+        margin-left: 200px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+    }
+
+    .gr {
+        background: #0E8784;
+    }
+
+    .yellow {
+        background: #FDD6BA;
+    }
+
+    .green {
+        color: #FFFFFF;
+    }
+
+    &-big {
+        position: relative;
+        left: 200px;
+        bottom: 480px;
+    }
+
+    &-other {
+        position: absolute;
+        width: 700px;
+        background: #2C343E;
+        padding: 20px 20px;
+        border-radius: 10px;
+        bottom: 200px;
+        left: 380px;
+        
+    }
+
+    &-txt {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    &-tlt {
+        width: 530px;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+
+    span {
+        color: #0E8784;
+    }
+}
+

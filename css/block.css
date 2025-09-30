@@ -1,0 +1,204 @@
+.plan-header {
+  padding: 150px 50px;
+  background-image: url(/images/Bitmap\ \(3\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+.plan-header-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+.plan-header-text {
+  width: 440px;
+  margin-top: 50px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.plan-line {
+  padding: 50px 50px;
+  background: #2C343E;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.plan-line-hr {
+  width: 650px;
+  height: 2px;
+  background-color: #FDD6BA;
+}
+.plan-line-miniboxes {
+  position: relative;
+  width: 690px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 17px;
+  right: 20px;
+}
+.plan-line-minibox {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #0E8784;
+}
+.plan-line-number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.plan-line-boxes {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 100px;
+}
+.plan-line-title {
+  margin-top: 30px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+.plan-line-text {
+  width: 280px;
+  margin-top: 30px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.plan-drink {
+  padding: 50px 50px;
+}
+.plan-drink .plan-drink-table {
+  position: relative;
+}
+.plan-drink .plan-drink-table-title {
+  margin: 30px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.plan-drink .plan-drink-table-hr {
+  margin-top: 10px;
+  width: 200px;
+  height: 2px;
+  background: #83888F;
+  margin-left: 30px;
+}
+.plan-drink .plan-drink-table-title:hover {
+  color: #0E8784;
+}
+.plan-drink-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.plan-drink-box {
+  margin-top: 50px;
+  width: 150px;
+  height: 170px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: #F4F1EB;
+}
+.plan-drink-title {
+  text-align: center;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+.plan-drink-text {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+.plan-drink-h1 {
+  margin-top: 50px;
+  margin-left: 200px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+.plan-drink .gr {
+  background: #0E8784;
+}
+.plan-drink .yellow {
+  background: #FDD6BA;
+}
+.plan-drink .green {
+  color: #FFFFFF;
+}
+.plan-drink-big {
+  position: relative;
+  left: 200px;
+  bottom: 480px;
+}
+.plan-drink-other {
+  position: absolute;
+  width: 700px;
+  background: #2C343E;
+  padding: 20px 20px;
+  border-radius: 10px;
+  bottom: 200px;
+  left: 380px;
+}
+.plan-drink-txt {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.plan-drink-tlt {
+  width: 530px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.plan-drink span {
+  color: #0E8784;
+}/*# sourceMappingURL=block.css.map */
