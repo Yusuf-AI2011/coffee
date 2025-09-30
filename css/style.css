@@ -36,7 +36,6 @@
   padding: 50px 50px;
 }
 .header__title {
-  font-family: sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -46,7 +45,6 @@
 .header__text {
   margin-top: 50px;
   width: 450px;
-  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -81,6 +79,7 @@
   border-radius: 5px;
 }
 .choose__title {
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -100,6 +99,7 @@
   opacity: 0.8;
 }
 .choose__title2 {
+  font-family: "Fraunces";
   margin-top: 20px;
   font-style: normal;
   font-weight: 900;
@@ -109,6 +109,7 @@
   color: #FEFCF7;
 }
 .choose__text2 {
+  font-family: "Barlow";
   margin-top: 20px;
   width: 250px;
   font-style: normal;
@@ -238,6 +239,7 @@
   padding: 50px 50px;
 }
 .works__title {
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -305,9 +307,11 @@
   color: #FDD6BA;
 }
 .info__title {
+  font-family: "Fraunces";
   margin-top: 30px;
 }
 .info__text {
+  font-family: "Barlow";
   margin-top: 30px;
   font-style: normal;
   font-weight: 400;
@@ -333,6 +337,14 @@ a {
   width: 1200px;
   padding: 10px 20px;
   margin: auto;
+}
+
+h1 {
+  font-family: "Fraunces";
+}
+
+p {
+  font-family: "Barlow";
 }
 
 .about-header {
