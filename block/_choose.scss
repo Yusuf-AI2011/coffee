@@ -14,6 +14,8 @@
     }
 
     &__text {
+        width: 540px;
+        margin: auto;
         margin-top: 50px;
         font-style: normal;
         font-weight: 400;
@@ -67,6 +69,40 @@
 
     &__img {
         margin-left: 90px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .choose {
+            &__text {
+                width: 390px;
+            }
+
+            &-wrapper {
+                margin-top: -30px;
+            }
+
+            &__boxes {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__box {
+                width: 350px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                gap: 30px;
+            }
+
+            &__img {
+                margin-left: -10px;
+            }
+
+            &__text2, &__title2 {
+                text-align: start;
+            }
+        }
     }
 
 }

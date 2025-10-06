@@ -1,5 +1,6 @@
 .collection {
     padding: 50px 50px;
+    position: relative;
 
     &__img {
         position: absolute;
@@ -50,5 +51,38 @@
         line-height: 26px;
         text-align: center;
         color: #333D4B;
+    }
+
+    @media only screen and (max-width: 500px) {
+        &__img {
+            width: 450px;
+            margin-left: -30px;
+            position: absolute;
+        }
+
+        &__miniboxes {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: -80px;
+            margin-left: -90px;
+        }
+
+        &__infos {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            margin-top: 100px;
+        }
+
+        &-title, &__text {
+            text-align: start;
+        }
     }
 }

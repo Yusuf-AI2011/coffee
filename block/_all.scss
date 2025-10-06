@@ -24,3 +24,12 @@ h1 {
 p {
     font-family: 'Barlow';
 }
+
+@media only screen and (max-width: 500px) {
+
+    .wrapper {
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+    }
+}
