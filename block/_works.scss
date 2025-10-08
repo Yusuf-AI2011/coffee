@@ -1,122 +1,132 @@
 .works {
-    position: relative;
+  position: relative;
+  margin-top: 100px;
+  padding: 50px 50px;
+
+  &__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+  }
+
+  &__line {
+    width: 390px;
     margin-top: 100px;
-    padding: 50px 50px;
+    margin-left: -20px;
+    height: 2px;
+    background-color: #fdd6ba;
+    border: none;
+  }
+
+  &__balls {
+    width: 390px;
+    margin-top: -14px;
+    margin-left: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #0e8784;
+    background-color: #ffffff;
+  }
+
+  &__infos {
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  &__button {
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background: #66d2cf;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    border: none;
+    transition-property: all;
+    transition-duration: 1s;
+  }
+
+  &__button:hover {
+    box-shadow: 0px 0px 20px 0px rgb(0, 27, 45);
+  }
+
+  &__infos {
+    margin-top: 30px;
+  }
+
+  .info {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &__number {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      color: #fdd6ba;
+    }
 
     &__title {
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 32px;
-        color: #83888F;
+      font-family: "Fraunces";
+      font-size: 30px;
     }
 
-    &__line {
-        width: 390px;
-        margin-top: 100px;
-        margin-left: -20px;
-        height: 2px;
-        background-color: #FDD6BA;
-        border: none;
+    &__text {
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #333d4b;
+      font-size: 15px;
     }
+  }
 
-    &__balls {
-        width: 390px;
-        margin-top: -14px;
-        margin-left: -20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  @media only screen and (max-width: 500px) {
+    .works {
+      &__line,
+      &__balls {
+        display: none;
 
-    &__ball {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        border: 1px solid #0E8784;
-        background-color: #ffffff;
-    }
+      }
 
-    &__infos {
-        margin-right: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-    }
-
-    &__button {
-        width: 200px;
-        height: 50px;
-        margin-top: 100px;
-        background: #66D2CF;
-        border-radius: 6px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 18px;
-        line-height: 25px;
+      &__title {
         text-align: center;
-        color: #FEFCF7;
-        border: none;
-        transition-property: all;
-        transition-duration: 1s;
-    }
+      }
 
-    &__button:hover {
-        box-shadow: 0px 0px 20px 0px rgb(0, 27, 45);
-    }
+      &__button {
+        width: 100%;
+      }
 
-    &__infos {
-        margin-top: 30px;
-    }
-
-
-    .info {
-        width: 250px;
-        display: flex;
+      &__infos {
+        width: 100%;
         flex-direction: column;
-        gap: 30px;
 
-        &__number {
-            font-style: normal;
-            font-weight: 900;
-            font-size: 72px;
-            line-height: 72px;
-            color: #FDD6BA;
+        .info__number,
+        .info__title,
+        .info__text {
+          text-align: center;
         }
-
-        &__title {
-            font-family: 'Fraunces';
-            font-size: 30px;
-        }
-
-        &__text {
-            font-family: 'Barlow';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 26px;
-            color: #333D4B;
-            font-size: 15px;
-        }
+      }
     }
-
-        @media only screen and (max-width: 500px) {
-            .works {
-
-                &__infos {
-                    display: flex;
-                    flex-direction: column;
-                    margin-left: 150px;
-                }
-
-                &__button {
-                    margin-left: 80px;
-                }
-
-                
-            }
-        }
-    
+  }
 }
