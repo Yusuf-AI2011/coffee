@@ -254,6 +254,7 @@
   }
   .collection .collection__img {
     width: 300px;
+    margin-left: -5%;
   }
   .collection .collection__miniboxes {
     flex-direction: column;
@@ -321,6 +322,7 @@
   }
   .footer__list {
     width: 100%;
+    flex-direction: column;
   }
   .footer__icons {
     width: 100%;
