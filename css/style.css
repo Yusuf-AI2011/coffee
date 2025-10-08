@@ -617,7 +617,7 @@ p {
   }
   .about-uncommit .about-uncommit-img {
     width: 60%;
-    margin-left: -165%;
+    margin-left: -180%;
     margin-bottom: 100%;
   }
 }
@@ -674,9 +674,6 @@ p {
   }
 }
 
-.footer-space {
-  height: 200px;
-}
 .footer__list {
   margin-left: -10%;
 }
@@ -954,5 +951,8 @@ p {
   }
   .plan-drink .plan-drink-space {
     height: 200%;
+  }
+  .plan-drink .plan-drink-table {
+    margin-left: -20%;
   }
 }/*# sourceMappingURL=style.css.map */
