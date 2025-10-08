@@ -38,4 +38,33 @@
         left: 700px;
         bottom: 100px;
     }
+
+    @media only screen and (max-width: 500px) {
+        .about-uncommit {
+            display: flex;
+            flex-direction: column;
+
+            &-info {
+                width: 100%;
+                padding: 0;
+                flex-direction: column;
+            }
+
+            &-title {
+                width: 100%;
+                font-size: 35px;
+                text-align: center;
+            }
+
+            &-text {
+                text-align: center;
+            }
+
+            &-img {
+                width: 60%;
+                margin-left: -165%;
+                margin-bottom: 100%;
+            }
+        }
+    }
 }

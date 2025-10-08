@@ -38,4 +38,33 @@
     line-height: 26px;
     color: #333d4b;
   }
+
+  @media only screen and (max-width: 500px) {
+    .about-country {
+      &-title {
+        text-align: center;
+        font-size: 30px;
+      }
+
+      &-boxes {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &-box {
+        width: 150px;
+        height: 200px;
+      }
+    }
+  }
+}
+
+.footer {
+  &-space {
+    height: 200px;
+  }
+
+  &__list {
+    margin-left: -10%;
+  }
 }

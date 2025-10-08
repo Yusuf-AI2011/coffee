@@ -444,11 +444,6 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 li {
   list-style: none;
 }
@@ -478,7 +473,7 @@ p {
 }
 .about-header {
   background-image: url(../images/aboutbgimg.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 50px;
   background-attachment: fixed;
@@ -501,6 +496,18 @@ p {
   font-size: 16px;
   line-height: 26px;
   color: #fefcf7;
+}
+@media only screen and (max-width: 500px) {
+  .about-header .about-header {
+    padding: 20px;
+  }
+  .about-header .about-header-title {
+    width: 100%;
+    font-size: 30px;
+  }
+  .about-header .about-header-text {
+    width: 100%;
+  }
 }
 
 .about-commit {
@@ -532,6 +539,25 @@ p {
   color: #333D4B;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+@media only screen and (max-width: 500px) {
+  .about-commit .about-commit {
+    flex-direction: column;
+  }
+  .about-commit .about-commit-img {
+    width: 100%;
+  }
+  .about-commit .about-commit-info {
+    width: 100%;
+    margin: 0;
+    margin-top: 30%;
+  }
+  .about-commit .about-commit-title {
+    font-size: 30px;
+  }
+  .about-commit .about-commit-text {
+    text-align: center;
+  }
 }
 
 .about-uncommit {
@@ -571,6 +597,30 @@ p {
   left: 700px;
   bottom: 100px;
 }
+@media only screen and (max-width: 500px) {
+  .about-uncommit .about-uncommit {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-uncommit .about-uncommit-info {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+  }
+  .about-uncommit .about-uncommit-title {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+  }
+  .about-uncommit .about-uncommit-text {
+    text-align: center;
+  }
+  .about-uncommit .about-uncommit-img {
+    width: 60%;
+    margin-left: -165%;
+    margin-bottom: 100%;
+  }
+}
 
 .about-country {
   padding: 50px 50px;
@@ -609,7 +659,33 @@ p {
   line-height: 26px;
   color: #333d4b;
 }
+@media only screen and (max-width: 500px) {
+  .about-country .about-country-title {
+    text-align: center;
+    font-size: 30px;
+  }
+  .about-country .about-country-boxes {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-country .about-country-box {
+    width: 150px;
+    height: 200px;
+  }
+}
 
+.footer-space {
+  height: 200px;
+}
+.footer__list {
+  margin-left: -10%;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    width: 90%;
+  }
+}
 .plan-header {
   padding: 150px 50px;
   background-image: url(/images/Bitmap\ \(3\).png);
