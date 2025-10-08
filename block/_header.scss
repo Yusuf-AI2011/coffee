@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 30px;
     background-image: url(/images/Bitmap.png);
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -53,14 +53,17 @@
 
     @media only screen and (max-width: 500px) {
         .header {
+            width: 100%;
+            padding: 0pc;
 
             &__title {
-                width: 400px;
-                font-size: 50px;
+                width: 100%;
+                font-size: 37px;
+                line-height: 40px;
             }
 
             &__text {
-                width: 400px;
+                width: 100%;
             }
 
         }
