@@ -688,7 +688,7 @@ p {
 }
 .plan-header {
   padding: 150px 50px;
-  background-image: url(/images/Bitmap\ \(3\).png);
+  background-image: url("/images/Bitmap (3).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -714,6 +714,20 @@ p {
   mix-blend-mode: normal;
   opacity: 0.8;
 }
+@media only screen and (max-width: 500px) {
+  .plan-header .plan-header {
+    width: 100%;
+    padding: 0px;
+  }
+  .plan-header .plan-header-title {
+    width: 100%;
+    text-align: center;
+  }
+  .plan-header .plan-header-text {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 .plan-line {
   padding: 50px 50px;
@@ -722,9 +736,12 @@ p {
   margin-top: 100px;
 }
 .plan-line-hr {
+  position: relative;
   width: 650px;
   height: 2px;
   background-color: #FDD6BA;
+  margin-left: -3px;
+  top: 10px;
 }
 .plan-line-miniboxes {
   position: relative;
@@ -773,6 +790,26 @@ p {
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
+}
+@media only screen and (max-width: 500px) {
+  .plan-line .plan-line-hr, .plan-line .plan-line-miniboxes {
+    display: none;
+  }
+  .plan-line .plan-line-boxes {
+    flex-direction: column;
+  }
+  .plan-line .plan-line-number {
+    width: 100%;
+    text-align: center;
+  }
+  .plan-line .plan-line-title {
+    width: 100%;
+    text-align: center;
+  }
+  .plan-line .plan-line-text {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .plan-drink {
@@ -889,4 +926,33 @@ p {
 }
 .plan-drink span {
   color: #0E8784;
+}
+@media only screen and (max-width: 500px) {
+  .plan-drink .plan-drink-big {
+    position: static;
+    flex-direction: column;
+  }
+  .plan-drink .plan-drink-h1 {
+    width: 100%;
+    margin-left: -5%;
+    font-size: 30px;
+  }
+  .plan-drink .plan-drink-boxes {
+    flex-direction: column;
+  }
+  .plan-drink .plan-drink-box {
+    width: 100%;
+  }
+  .plan-drink .plan-drink-other {
+    width: 100%;
+    position: static;
+    margin-top: 30%;
+    margin-left: -5%;
+  }
+  .plan-drink .plan-drink-tlt, .plan-drink .plan-drink-txt {
+    width: 100%;
+  }
+  .plan-drink .plan-drink-space {
+    height: 200%;
+  }
 }/*# sourceMappingURL=style.css.map */

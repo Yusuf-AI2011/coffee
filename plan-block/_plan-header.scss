@@ -1,6 +1,6 @@
 .plan-header {
     padding: 150px 50px;
-    background-image: url(/images/Bitmap\ \(3\).png);
+    background-image: url('/images/Bitmap\ \(3\).png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,5 +26,22 @@
         color: #FEFCF7;
         mix-blend-mode: normal;
         opacity: 0.8;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .plan-header {
+            width: 100%;
+            padding: 0px;
+
+            &-title {
+                width: 100%;
+                text-align: center;
+            }
+
+            &-text {
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
 }

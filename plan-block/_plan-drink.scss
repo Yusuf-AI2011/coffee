@@ -136,5 +136,44 @@
     span {
         color: #0E8784;
     }
+
+    @media only screen and (max-width: 500px) {
+        .plan-drink {
+
+            &-big {
+                position: static;
+                flex-direction: column;
+            }
+
+            &-h1 {
+                width: 100%;
+                margin-left: -5%;
+                font-size: 30px;
+            }
+
+            &-boxes {
+                flex-direction: column;
+            }
+
+            &-box {
+                width: 100%;
+            }
+
+            &-other {
+                width: 100%;
+                position: static;
+                margin-top: 30%;
+                margin-left: -5%;
+            }
+
+            &-tlt, &-txt {
+                width: 100%;
+            }
+
+            &-space {
+                height: 200%;
+            }
+        }
+    }
 }
 
